@@ -26,7 +26,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          '<%= meta.deployPath %>style.css' : '<%= meta.srcPath %>style.scss'
+          '<%= meta.deployPath %>style.css' : '<%= meta.srcPath %>style.sass'
         },
         options: {
           style: 'compressed'
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 
     regarde: {
       watch: {
-        files: ['<%= meta.srcPath %>*.scss', '*.html'],
+        files: ['<%= meta.srcPath %>*.sass', '*.html'],
         tasks: ['sass', 'livereload'],
         events: true
       },
