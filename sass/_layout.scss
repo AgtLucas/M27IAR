@@ -22,7 +22,6 @@ html {
 .loading-title {
   position: relative;
   float: left;
-  font-size: 150%;
   span {
     position: absolute;
     top: 0;
@@ -31,10 +30,10 @@ html {
     background-color: #1E1E1E;
     border-left: .1em solid #f3f3f3;
 
-    -webkit-animation: typing 17s steps(22, end),
+    -webkit-animation: typing 5s steps(8, end),
                        blink-caret 1s step-end infinite;
 
-    -moz-animation: typing 17s steps(22, end),
+    -moz-animation: typing 5s steps(8, end),
                        blink-caret 1s step-end infinite;
   }
 }
