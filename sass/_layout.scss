@@ -4,8 +4,37 @@ body {
   width: 100%;
 }
 html {
-  font-family: Ubuntu, sans-serif;
+  font-family: Consolas, monospace;
   font-weight: 300;
   background-color: #1E1E1E;
-  color: #101417;
+  color: #f3f3f3;
+}
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.loading-title {
+  position: relative;
+  float: left;
+  font-size: 150%;
+  span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    background-color: #1E1E1E;
+    border-left: .1em solid #f3f3f3;
+
+    -webkit-animation: typing 17s steps(22, end),
+                       blink-caret 1s step-end infinite;
+
+    -moz-animation: typing 17s steps(22, end),
+                       blink-caret 1s step-end infinite;
+  }
 }

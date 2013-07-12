@@ -12,3 +12,23 @@
 .cf:after {
   clear: both;
 }
+
+@-webkit-keyframes typing {
+  from { width: 100% }
+  to { width: 0 }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #f3f3f3 }
+}
+
+@-moz-keyframes typing {
+  from { width: 100% }
+  to { width: 0 }
+}
+
+@-moz-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #f3f3f3 }
+}
