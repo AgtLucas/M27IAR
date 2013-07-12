@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 
     regarde: {
       watch: {
-        files: ['<%= meta.srcPath %>*.sass', '*.html'],
+        files: ['<%= meta.srcPath %>*.scss', '*.html'],
         tasks: ['sass', 'livereload'],
         events: true
       },
