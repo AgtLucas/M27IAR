@@ -38,10 +38,10 @@ html {
     background-color: #1E1E1E;
     border-left: .1em solid #f3f3f3;
 
-    -webkit-animation: typing 5s steps(14, end),
+    -webkit-animation: typing 5s steps(13, end),
                        blink-caret 1s step-end infinite;
 
-    -moz-animation: typing 5s steps(14, end),
+    -moz-animation: typing 5s steps(13, end),
                        blink-caret 1s step-end infinite;
   }
 }
