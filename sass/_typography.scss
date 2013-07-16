@@ -67,3 +67,19 @@
 .icon-googleplus-rect:before { content: '\e808'; } /* '' */
 .icon-linkedin-1:before { content: '\e80c'; } /* '' */
 .icon-linkedin-rect:before { content: '\e80b'; } /* '' */
+
+/*-----------------------------------*\
+  $Headings
+\*-----------------------------------*/
+
+$headings: 1 2 3 4 5 6;
+$i: 1;
+
+@while $i <= 6 {
+  h#{$i} {
+    font-size: 50px - ($i * 5px);
+    font-size: (50px - $i * 5) / 16 + rem;
+    margin: 0;
+  }
+  $i: $i + 1;
+}
