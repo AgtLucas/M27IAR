@@ -45,7 +45,7 @@ html {
                        blink-caret 1s step-end infinite;
   }
 }
-footer {
+.home-footer {
   position: absolute;
   right: 0;
   bottom: 20%;
@@ -74,7 +74,6 @@ footer {
 }
 .main-header {
   position: fixed;
-  float: left;
   margin: 20px 0 0 20px;
 }
 .main-footer {
