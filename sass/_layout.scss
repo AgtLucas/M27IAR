@@ -70,10 +70,36 @@ footer {
 
 // Blog
 .blog {
-  background: #666;
+  background: #1e1e1e;
+}
+.main-header {
+  position: fixed;
+  float: left;
+  margin-left: 20px;
+  background: #1e1e1e;
+  width: 20%;
+  margin: 0;
+  height: 100%;
+}
+.main-footer, .main-content:after {
+  height: 50px
+}
+.main-content {
+  background: #f3f3f3;
+  color: #1e1e1e;
+  min-height: 100%;
+  margin-bottom: -50px;
+  &:after {
+    content: "";
+    display: block;
+  }
+}
+.post {
+  padding: 10px;
+  margin-bottom: 30px;
 }
 .wrap-content {
-  width: 60em;
+  width: 45em;
   max-width: 100%;
   margin: 0 auto;
 }
