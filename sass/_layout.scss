@@ -70,36 +70,35 @@ footer {
 
 // Blog
 .blog {
-  background: #1e1e1e;
+  border-top: 5px solid #1e1e1e;
 }
 .main-header {
   position: fixed;
   float: left;
-  margin-left: 20px;
-  background: #1e1e1e;
-  width: 20%;
-  margin: 0;
-  height: 100%;
+  margin: 20px 0 0 20px;
 }
-.main-footer, .main-content:after {
-  height: 50px
+.main-footer {
+  position: relative;
+  bottom: 0;
+  background: #1e1e1e;
+  heigth: 60px;
 }
 .main-content {
   background: #f3f3f3;
   color: #1e1e1e;
   min-height: 100%;
-  margin-bottom: -50px;
-  &:after {
-    content: "";
-    display: block;
-  }
+  padding-top: 10px;
+  padding-bottom: 70px;
 }
 .post {
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 30px;
+  color: #1e1e1e;
+  min-height: 260px;
+  border-bottom: 1px dashed #ccc;
 }
 .wrap-content {
-  width: 45em;
+  width: 50em;
   max-width: 100%;
   margin: 0 auto;
 }
