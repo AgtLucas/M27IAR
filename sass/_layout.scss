@@ -74,11 +74,12 @@ html {
 }
 .main-header {
   position: fixed;
-  height: 60px;
   background: #1e1e1e;
+  border-bottom: 2px solid #666;
+  height: 60px;
   width: 100%;
   top: 0;
-  border-bottom: 2px solid #666;
+  z-index: 2;
   a {
     color: #f3f3f3;
   }
@@ -100,16 +101,16 @@ html {
 }
 .main-footer {
   position: relative;
+  heigth: 60px;
   bottom: 0;
   background: #1e1e1e;
-  heigth: 60px;
 }
 .main-content {
+  position: relative;
   background: #f1f1f1;
   color: #1e1e1e;
   min-height: 100%;
   padding-top: 90px;
-  padding-bottom: 70px;
 }
 .post {
   padding: 10px;
