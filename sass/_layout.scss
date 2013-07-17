@@ -72,6 +72,18 @@ html {
 .blog {
   border-top: 5px solid #1e1e1e;
 }
+.blog-content {
+  min-height: 100%;
+  margin-bottom: -50px;
+  &:after {
+    content: "";
+    display: block;
+  }
+}
+.blog-content:after,
+.main-footer {
+  height: 50px;
+}
 .main-header {
   position: absolute;
   background: #1e1e1e;
@@ -100,9 +112,6 @@ html {
   top: 10px;
 }
 .main-footer {
-  position: absolute;
-  heigth: 60px;
-  bottom: 0;
   width: 100%;
   background: #1e1e1e;
 }
@@ -112,7 +121,6 @@ html {
   color: #1e1e1e;
   min-height: 100%;
   padding-top: 90px;
-  margin-bottom: 200px;
 }
 .post {
   padding: 10px;
