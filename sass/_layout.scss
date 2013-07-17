@@ -78,6 +78,25 @@ html {
   background: #1e1e1e;
   width: 100%;
   top: 0;
+  border-bottom: 2px solid #666;
+  a {
+    color: #f3f3f3;
+  }
+}
+.main-menu {
+  float: right;
+}
+.main-menu-links {
+  position: relative;
+  bottom: 25px;
+  li {
+    display: inline;
+    margin-left: 20px;
+  }
+}
+.logo {
+  position: relative;
+  top: 10px;
 }
 .main-footer {
   position: relative;
@@ -86,14 +105,14 @@ html {
   heigth: 60px;
 }
 .main-content {
-  background: #f3f3f3;
+  background: #f1f1f1;
   color: #1e1e1e;
   min-height: 100%;
-  padding-top: 10px;
+  padding-top: 90px;
   padding-bottom: 70px;
 }
 .post {
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 30px;
   color: #1e1e1e;
   min-height: 260px;
