@@ -74,7 +74,7 @@ html {
 }
 .blog-content {
   min-height: 100%;
-  margin-bottom: -50px;
+  margin-bottom: -80px;
   &:after {
     content: "";
     display: block;
@@ -82,10 +82,10 @@ html {
 }
 .blog-content:after,
 .main-footer {
-  height: 50px;
+  height: 80px;
 }
 .main-header {
-  position: absolute;
+  position: fixed;
   background: #1e1e1e;
   border-bottom: 2px solid #666;
   height: 60px;
@@ -95,6 +95,15 @@ html {
   a {
     color: #f3f3f3;
   }
+}
+.main-footer {
+  width: 100%;
+  background: #1e1e1e;
+}
+.wrap-content {
+  width: 50em;
+  max-width: 100%;
+  margin: 0 auto;
 }
 .main-menu {
   float: right;
@@ -111,16 +120,11 @@ html {
   position: relative;
   top: 10px;
 }
-.main-footer {
-  width: 100%;
-  background: #1e1e1e;
-}
 .main-content {
   position: relative;
   background: #f1f1f1;
   color: #1e1e1e;
-  min-height: 100%;
-  padding-top: 90px;
+  padding: 90px 0;
 }
 .post {
   padding: 10px;
@@ -128,9 +132,4 @@ html {
   color: #1e1e1e;
   min-height: 260px;
   border-bottom: 1px dashed #ccc;
-}
-.wrap-content {
-  width: 50em;
-  max-width: 100%;
-  margin: 0 auto;
 }
