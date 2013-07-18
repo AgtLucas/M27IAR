@@ -70,7 +70,7 @@ html {
 
 // Blog
 .blog {
-  border-top: 5px solid #1e1e1e;
+  font-family: 'Ubuntu', sans-serif;
 }
 .blog-content {
   min-height: 100%;
@@ -85,9 +85,9 @@ html {
   height: 80px;
 }
 .main-header {
-  position: fixed;
+  position: relative;
   background: #1e1e1e;
-  border-bottom: 2px solid #666;
+  border-bottom: 2px solid darkblue;
   height: 60px;
   width: 100%;
   top: 0;
@@ -123,14 +123,13 @@ html {
 }
 .main-content {
   position: relative;
-  background: #f1f1f1;
-  color: #1e1e1e;
+  background: #fcfcfc;
   padding: 90px 0;
 }
 .post {
   padding: 10px;
   margin-bottom: 30px;
-  color: #1e1e1e;
+  color: #2f2f2f;
   min-height: 260px;
   border-bottom: 1px dashed #ccc;
 }
