@@ -103,9 +103,10 @@ html {
   width: 100%;
   background: #1e1e1e;
   padding-top: 30px;
+  border-bottom: 2px solid #08c;
 }
 .wrap-content {
-  width: 50em;
+  width: 60em;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -132,14 +133,18 @@ html {
 .post {
   position: relative;
   display: block;
-  margin-bottom: 30px;
-  color: #2f2f2f;
-  border-bottom: 1px solid #ccc;
+  margin-bottom: 60px;
+  padding: 20px 0;
+  color: #666;
+  border-bottom: 1px dashed #ccc;
+  p {
+    font-size: 18px;
+  }
 }
 .post-title {
   padding: 0 0 20px;
   a {
-    color: #666;
+    color: #555;
     &:hover {
       color: #08c;
       text-shadow: 0px 2px 3px rgba(150, 150, 150, 1);
