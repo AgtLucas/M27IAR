@@ -70,7 +70,9 @@ html {
 
 // Blog
 .blog {
-  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  border-top: 2px solid #08c;
 }
 .blog-content {
   min-height: 100%;
@@ -86,14 +88,15 @@ html {
 }
 .main-header {
   position: relative;
-  background: #1e1e1e;
-  border-bottom: 2px solid darkblue;
-  height: 60px;
+  background: #fcfcfc;
+  height: 100px;
   width: 100%;
   top: 0;
+  padding-top: 20px;
+  border-bottom: 1px solid #ccc;
   z-index: 2;
   a {
-    color: #f3f3f3;
+    color: #1e1e1e;
   }
 }
 .main-footer {
@@ -127,9 +130,22 @@ html {
   padding: 90px 0;
 }
 .post {
-  padding: 10px;
+  position: relative;
+  display: block;
   margin-bottom: 30px;
   color: #2f2f2f;
-  min-height: 260px;
-  border-bottom: 1px dashed #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.post-title {
+  padding: 0 0 20px;
+  a {
+    color: #666;
+    &:hover {
+      color: #08c;
+      text-shadow: 0px 2px 3px rgba(150, 150, 150, 1);
+      -webkit-background-clip: text;
+         -moz-background-clip: text;
+              background-clip: text;
+    }
+  }
 }
