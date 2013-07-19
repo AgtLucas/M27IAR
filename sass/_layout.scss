@@ -141,16 +141,21 @@ html {
     font-size: 18px;
   }
 }
+.post-info {
+  background: #ccc;
+  width: 15%;
+  padding: 5px;
+  text-align: center;
+  float: right;
+}
 .post-title {
   padding: 0 0 20px;
   a {
     color: #555;
     &:hover {
       color: #08c;
-      text-shadow: 0px 2px 3px rgba(150, 150, 150, 1);
-      -webkit-background-clip: text;
-         -moz-background-clip: text;
-              background-clip: text;
+      padding-left: 10px;
+      -webkit-transition: padding 1s ease-in-out;
     }
   }
 }
