@@ -37,3 +37,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+::-moz-selection {
+  background: #1e1e1e;
+  color: #fcfcfc;
+}
+
+::selection {
+  background: #1e1e1e;
+  color: #fcfcfc;
+}
