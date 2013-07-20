@@ -121,9 +121,10 @@ html {
     display: inline;
     margin-left: 20px;
     a {
+      font-size: 20px;
       &:hover {
         border-bottom: 3px solid #08c;
-        padding-bottom: 33px;
+        padding-bottom: 28px;
       }
     }
   }
