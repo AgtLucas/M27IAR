@@ -76,7 +76,7 @@ html {
 }
 .blog-content {
   min-height: 100%;
-  margin-bottom: -80px;
+  margin-bottom: -150px;
   &:after {
     content: "";
     display: block;
@@ -84,7 +84,7 @@ html {
 }
 .blog-content:after,
 .main-footer {
-  height: 80px;
+  height: 150px;
 }
 .main-header {
   position: relative;
@@ -102,8 +102,9 @@ html {
 .main-footer {
   width: 100%;
   background: #1e1e1e;
-  padding-top: 30px;
+  padding-top: 80px;
   border-bottom: 2px solid #08c;
+  text-align: center;
 }
 .wrap-content {
   width: 50em;
@@ -157,7 +158,8 @@ html {
   background: #ccc;
   color: #1e1e1e;
   width: 15%;
-  padding: 5px;
+  padding: 2px;
+  margin-top: 10px;
   text-align: center;
   float: right;
 }
