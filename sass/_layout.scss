@@ -168,8 +168,10 @@ html {
     color: #555;
     &:hover {
       color: #08c;
-      padding-left: 10px;
-      -webkit-transition: padding 1s ease-in-out;
+      padding-left: 3px;
+      -webkit-transition: 0.3s ease-in;
+      -moz-transition: 0.3s ease-in;
+      -o-transition: 0.3s ease-in;
     }
   }
 }
