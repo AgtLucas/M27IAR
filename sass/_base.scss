@@ -13,6 +13,10 @@
   clear: both;
 }
 
+@function rem($pixels, $context: $font-size) {
+   @return#{$pixels/$context}rem;
+}
+
 @-webkit-keyframes typing {
   from { width: 100% }
   to { width: 0 }
