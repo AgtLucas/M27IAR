@@ -122,6 +122,7 @@ html {
     margin-left: 20px;
     a {
       font-size: 20px;
+      font-size: rem(20);
       &:hover {
         border-bottom: 3px solid #08c;
         padding-bottom: 28px;
