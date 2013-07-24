@@ -64,3 +64,15 @@ blockquote {
   border-left: 5px solid #08c;
   font-size: 20px;
 }
+
+ul {
+  list-style: none;
+}
+
+pre {
+  margin: 20px 0;
+  background: #1e1e1e;
+  code {
+    color: #f3f3f3;
+  }
+}
