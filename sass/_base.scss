@@ -6,8 +6,6 @@ $font-size: 16;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 .cf:before, .cf:after {
@@ -72,14 +70,6 @@ ul {
   list-style: none;
   padding-left: em(10);
   li {
-    padding: em(5);
-  }
-}
-
-pre {
-  margin: 20px 0;
-  background: #1e1e1e;
-  code {
-    color: #f3f3f3;
+    padding: em(2);
   }
 }
