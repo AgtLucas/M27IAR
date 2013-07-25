@@ -76,7 +76,7 @@ html {
 }
 .blog-content {
   min-height: 100%;
-  margin-bottom: -150px;
+  margin-bottom: -100px;
   &:after {
     content: "";
     display: block;
@@ -84,7 +84,7 @@ html {
 }
 .blog-content:after,
 .main-footer {
-  height: 150px;
+  height: 100px;
 }
 .main-header {
   position: relative;
@@ -102,7 +102,7 @@ html {
 .main-footer {
   width: 100%;
   background: #1e1e1e;
-  padding-top: 80px;
+  padding-top: 40px;
   border-bottom: 2px solid #08c;
   text-align: center;
 }
@@ -126,6 +126,7 @@ html {
       &:hover {
         border-bottom: 3px solid #08c;
         padding-bottom: 28px;
+        text-decoration: none;
       }
     }
   }
@@ -133,10 +134,12 @@ html {
 .logo {
   position: relative;
   top: 10px;
+  margin: 0;
   a {
     &:hover {
       border-bottom: 3px solid #08c;
       padding-bottom: 19px;
+      text-decoration: none;
     }
   }
 }
@@ -168,6 +171,7 @@ html {
   a {
     color: #555;
     &:hover {
+      text-decoration: none;
       color: #08c;
       padding-left: 3px;
       -webkit-transition: 0.3s ease-in;
@@ -178,9 +182,4 @@ html {
 }
 .post-content {
   margin-top: 30px;
-}
-.read-more-link {
-  &:hover {
-    text-decoration: underline;
-  }
 }
