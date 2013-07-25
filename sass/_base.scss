@@ -70,6 +70,10 @@ blockquote {
 
 ul {
   list-style: none;
+  padding-left: em(10);
+  li {
+    padding: em(5);
+  }
 }
 
 pre {
