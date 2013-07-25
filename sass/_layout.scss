@@ -97,6 +97,9 @@ html {
   z-index: 2;
   a {
     color: #1e1e1e;
+    &:hover {
+      color: #666;
+    }
   }
 }
 .main-footer {
@@ -127,6 +130,7 @@ html {
         border-bottom: 3px solid #08c;
         padding-bottom: 28px;
         text-decoration: none;
+        color: #666;
       }
     }
   }
@@ -182,4 +186,8 @@ html {
 }
 .post-content {
   margin-top: 30px;
+}
+.disqus-comments {
+  margin: em(50) 0 em(20) 0;
+  height: 200px;
 }
