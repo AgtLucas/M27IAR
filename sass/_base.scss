@@ -6,6 +6,7 @@ $font-size: 16;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-rendering: optimizeLegibility;
 }
 .cf:before, .cf:after {
   content: " ";
