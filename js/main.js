@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  // If browser support pjax...
   if ($.support.pjax) {
     var duration = 400;
     $(document).pjax("a[data-pjax]", ".main-content", {
@@ -13,4 +14,7 @@ $(document).ready(function() {
         $(this).fadeIn(duration)
       });
   }
+
+  // Fitvids
+  $('.post-content').fitVids();
 });
