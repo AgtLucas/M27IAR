@@ -1,5 +1,11 @@
+@media all and (min-width : em(250)) and (max-width : em(480)) {
+  .wrap-content {
+    padding: em(15);
+  }
+}
+
 @media all and
-(min-width : 1281px) {
+(min-width : em(1281)) {
   .wrap-content {
     width: 70em;
   }
