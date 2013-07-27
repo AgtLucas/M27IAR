@@ -18,6 +18,7 @@ module.exports = function(grunt) {
     //  Metadata
 
     meta: {
+      jsPath: 'js/',
       srcPath: 'sass/',
       deployPath: 'css/'
     },
@@ -33,6 +34,15 @@ module.exports = function(grunt) {
         }
       }
     },
+
+    // Uglify
+    uglify: {
+      target: {
+        files: {
+          '<%= meta.jsPath %>main.min.js' : ['<%= meta.jsPath %>main.js']
+        }
+      }
+    }
 
     livereload: {
       port: 35729
