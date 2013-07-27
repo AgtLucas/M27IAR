@@ -42,7 +42,7 @@ module.exports = function(grunt) {
           '<%= meta.jsPath %>main.min.js' : ['<%= meta.jsPath %>main.js']
         }
       }
-    }
+    },
 
     livereload: {
       port: 35729
