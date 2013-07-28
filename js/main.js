@@ -11,10 +11,12 @@ $(document).ready(function() {
         $(this).hide()
       })
       .bind("pjax:complete", function() {
-        $(this).fadeIn(duration)
+        $(this).fadeIn(duration), fitVidsJs()
       });
   }
+});
 
+function fitVidsJs() {
   // Fitvids
   $('.post-content').fitVids();
-});
+};
