@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  fitVidsJs();
+
   // If browser support pjax...
   if ($.support.pjax) {
     var duration = 400;
