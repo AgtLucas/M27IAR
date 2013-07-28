@@ -1,4 +1,14 @@
-@media all and (min-width : em(250)) and (max-width : em(960)) {
+@media all and (min-width : em(240)) and (max-width : em(480)) {
+  .main-menu-links {
+    bottom: 0;
+    margin-rigth: 50%;
+    li {
+      margin: 0;
+    }
+  }
+}
+
+@media all and (min-width : em(240)) and (max-width : em(960)) {
   .wrap-content {
     padding: 0 em(15);
   }
