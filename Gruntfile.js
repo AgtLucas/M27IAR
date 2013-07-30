@@ -18,10 +18,7 @@ module.exports = function(grunt) {
     //  Metadata
 
     meta: {
-<<<<<<< HEAD
-=======
       jsPath: 'js/',
->>>>>>> master
       srcPath: 'sass/',
       deployPath: 'css/'
     },
@@ -38,8 +35,6 @@ module.exports = function(grunt) {
       }
     },
 
-<<<<<<< HEAD
-=======
     // Uglify
     uglify: {
       target: {
@@ -49,7 +44,6 @@ module.exports = function(grunt) {
       }
     },
 
->>>>>>> master
     livereload: {
       port: 35729
     },
@@ -67,13 +61,9 @@ module.exports = function(grunt) {
 
     regarde: {
       watch: {
-<<<<<<< HEAD
-        files: ['<%= meta.srcPath %>*.scss', '*.html'],
-        tasks: ['sass', 'livereload'],
-=======
         files: ['<%= meta.srcPath %>*.scss', '*.html', '<%= meta.jsPath %>*.js'],
         tasks: ['sass', 'uglify', 'livereload'],
->>>>>>> master
+
         events: true
       },
     }
@@ -83,10 +73,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-regarde');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-livereload');
-<<<<<<< HEAD
-=======
   grunt.loadNpmTasks('grunt-contrib-uglify');
->>>>>>> master
 
   grunt.registerTask('default', ['livereload-start', 'connect', 'regarde']);
 };
