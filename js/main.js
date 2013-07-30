@@ -16,12 +16,6 @@ $(document).ready(function() {
         $(this).hide()
       })
       .bind("pjax:complete", function() {
-<<<<<<< HEAD
-        $(this).fadeIn(duration)
-      });
-  }
-});
-=======
         $(this).fadeIn(duration), fitVidsJs()
       });
   }
@@ -31,4 +25,3 @@ function fitVidsJs() {
   // Fitvids
   $('.post-content').fitVids();
 };
->>>>>>> master
