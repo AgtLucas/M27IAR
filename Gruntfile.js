@@ -62,7 +62,7 @@ module.exports = function(grunt) {
     regarde: {
       watch: {
         files: ['<%= meta.srcPath %>*.scss', '*.html', '<%= meta.jsPath %>*.js'],
-        tasks: ['sass', 'uglify', 'livereload'],
+        tasks: ['livereload'],
         events: true
       },
     }
@@ -74,5 +74,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-livereload');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', ['livereload-start', 'connect', 'regarde']);
+  grunt.registerTask('default', ['sass', 'uglify', 'livereload-start', 'connect', 'regarde']);
 };
