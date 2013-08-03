@@ -50,13 +50,13 @@ img {
 }
 
 ::-moz-selection {
-  background: #1e1e1e;
-  color: #fcfcfc;
+  background: $mblack;
+  color: $mwhite;
 }
 
 ::selection {
-  background: #1e1e1e;
-  color: #fcfcfc;
+  background: $mblack;
+  color: $mwhite;
 }
 
 blockquote {
