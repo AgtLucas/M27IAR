@@ -2,7 +2,44 @@
   "name": "",
   "css_prefix_text": "icon-",
   "css_use_suffix": false,
+  "hinting": true,
   "glyphs": [
+    {
+      "uid": "0f6a2573a7b6df911ed199bb63717e27",
+      "css": "github-circled-1",
+      "code": 59412,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "1145676a91138011729fa2909997af66",
+      "css": "linkedin-squared",
+      "code": 59414,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "627abcdb627cb1789e009c08e2678ef9",
+      "css": "twitter-2",
+      "code": 59413,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "606054f1c67f8193d59d9c12e3f4d3e1",
+      "css": "flash",
+      "code": 59415,
+      "src": "iconic"
+    },
+    {
+      "uid": "244d3253e3ca5a0d602dd3574050fe93",
+      "css": "campsite",
+      "code": 59411,
+      "src": "maki"
+    },
+    {
+      "uid": "a9d3392264236bb9fe4d60a130c662d1",
+      "css": "fire-station",
+      "code": 59410,
+      "src": "maki"
+    },
     {
       "uid": "288a62ca532f76053c4a834ba3746ea2",
       "css": "w3c-1",
@@ -64,6 +101,12 @@
       "src": "brandico"
     },
     {
+      "uid": "dc73bee1d58539abe8c96b958bf4c931",
+      "css": "fire-1",
+      "code": 59416,
+      "src": "elusive"
+    },
+    {
       "uid": "c99e966e3d22ec0b9d8678fd524e5512",
       "css": "facebook",
       "code": 59393,
@@ -104,6 +147,18 @@
       "css": "w3c",
       "code": 59394,
       "src": "elusive"
+    },
+    {
+      "uid": "04309fefab5210bf502d278d65d134cf",
+      "css": "fire",
+      "code": 59409,
+      "src": "linecons"
+    },
+    {
+      "uid": "006ab50770cd7183b27004f856b989e4",
+      "css": "target",
+      "code": 59417,
+      "src": "websymbols"
     }
   ]
 }

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?9233882');
-  src: url('../font/fontello.eot?9233882#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff?9233882') format('woff'),
-       url('../font/fontello.ttf?9233882') format('truetype'),
-       url('../font/fontello.svg?9233882#fontello') format('svg');
+  src: url('../font/fontello.eot?65716045');
+  src: url('../font/fontello.eot?65716045#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?65716045') format('woff'),
+       url('../font/fontello.ttf?65716045') format('truetype'),
+       url('../font/fontello.svg?65716045#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?9233882#fontello') format('svg');
+    src: url('../font/fontello.svg?65716045#fontello') format('svg');
   }
 }
 */
@@ -54,16 +54,25 @@
 .icon-twitter-1:before { content: '\e80f'; } /* '' */
 .icon-github-2:before { content: '\e80d'; } /* '' */
 .icon-github-circled:before { content: '\e80e'; } /* '' */
+.icon-flash:before { content: '\e817'; } /* '' */
 .icon-w3c:before { content: '\e802'; } /* '' */
 .icon-twitter:before { content: '\e800'; } /* '' */
+.icon-fire:before { content: '\e811'; } /* '' */
 .icon-linkedin:before { content: '\e806'; } /* '' */
 .icon-facebook:before { content: '\e801'; } /* '' */
 .icon-github:before { content: '\e804'; } /* '' */
 .icon-github-text:before { content: '\e803'; } /* '' */
+.icon-fire-1:before { content: '\e818'; } /* '' */
 .icon-googleplus:before { content: '\e805'; } /* '' */
+.icon-campsite:before { content: '\e813'; } /* '' */
+.icon-fire-station:before { content: '\e812'; } /* '' */
+.icon-twitter-2:before { content: '\e815'; } /* '' */
+.icon-github-circled-1:before { content: '\e814'; } /* '' */
 .icon-twitter-bird:before { content: '\e809'; } /* '' */
 .icon-github-text-1:before { content: '\e807'; } /* '' */
 .icon-github-1:before { content: '\e80a'; } /* '' */
 .icon-googleplus-rect:before { content: '\e808'; } /* '' */
+.icon-linkedin-squared:before { content: '\e816'; } /* '' */
 .icon-linkedin-1:before { content: '\e80c'; } /* '' */
 .icon-linkedin-rect:before { content: '\e80b'; } /* '' */
+.icon-target:before { content: '\e819'; } /* '' */
