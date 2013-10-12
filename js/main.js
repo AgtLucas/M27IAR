@@ -1,19 +1,28 @@
-// Place third party dependencies in the lib folder
+(function($) {
 
-// Configure Loading modules from the lib directory, except 'app' ones
+  'use strict';
 
-requirejs.config({
-  "baseUrl": "js/vendor",
-  "paths": {
-    "app": "../app"
-    // "jquery": "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min"
-  },
-  "shim": {
-    "pjax": ["jquery"],
-    "pjax-cookies": ["jquery"],
-    "fitvids": ["jquery"]
-  }
-});
+  fitVidsJs();
 
-// Load the main app module to start the app
-requirejs(["app/main"]);
+  // If browser support pjax...
+  if ($.support.pjax) {
+    var duration = 400;
+    $(document).pjax("a[data-pjax]", ".main-content", {
+      fragment: ".main-content",
+      duration: duration
+    }),
+    $(".main-content")
+      .bind("pjax:beforeSend", function() {
+        $(this).hide()
+      })
+      .bind("pjax:complete", function() {
+        $(this).fadeIn(duration), fitVidsJs()
+      });
+  };
+
+  function fitVidsJs() {
+    // Fitvids
+    $('.post-content').fitVids();
+  };
+
+})(jQuery);
